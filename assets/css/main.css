@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Poppins;
+    src: local('Poppins'), url('../fonts/Poppins-Regular.ttf') format("truetype");
+    font-weight: 400;
+}
+body{
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    height: 66px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section1__Full{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+}
+.section1__nav2 a{
+    font-size: 15px;
+    margin-right: 20px;
+}
+.section1__nav2 a:last-child{
+    font-size: 15px;
+    margin-right: 0px;
+}
+.section1__nav1{
+    margin-left: 7%;
+}
+.section1__nav2{
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+    margin-right: 8%;
+}
+.section1__section1{
+    background: url('../img/Sec1__background.png') center center no-repeat;
+    width: 1440px;
+    height: 727px;
+}
